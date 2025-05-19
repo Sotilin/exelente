@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Huerta Saludable </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fdf6ec;
+    }
+    header, footer {
+      background-color: #8d6748;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    nav {
+      background-color: #c89f7b;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+    .productos {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .producto {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .producto a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: #8d6748;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .producto a:hover {
+      background-color: #704e37;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>La Huerta Saludable</h1>
+    <p>Salud y sabor en cada bocado</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#nueces">Nueces</a>
+    <a href="#almendras">Almendras</a>
+    <a href="#avellanas">Avellanas</a>
+    <a href="#pistachos">Pistachos</a>
+    <a href="#castañas">Castañas</a>
+    <a href="#recetas">Recetas</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <!-- INICIO -->
+  <section id="inicio">
+    <h2>Bienvenido</h2>
+    <p>Explora nuestros deliciosos frutos secos 100% naturales.</p>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1524593000379-d4729b2c4f99?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bnVlY2VzfGVufDB8fDB8fHww" alt="Nueces">
+        <h3>Nueces</h3>
+        <p>Ricas en Omega-3 y antioxidantes.</p>
+        <a href="#nueces">Ver más</a>
+      </div>
+      <div class="producto">
+        <img src="https://www.shutterstock.com/image-photo/almonds-nuts-flat-lay-almond-600nw-2583112195.jpg" alt="Almendras">
+        <h3>Almendras</h3>
+        <p>Fuente de proteína y vitamina E.</p>
+        <a href="#almendras">Ver más</a>
+      </div>
+      <div class="producto">
+        <img src="https://png.pngtree.com/thumb_back/fh260/background/20210911/pngtree-hazelnuts-nuts-nuts-image_862007.jpg" alt="Avellanas">
+        <h3>Avellanas</h3>
+        <p>Ideales para la salud cardiovascular.</p>
+        <a href="#avellanas">Ver más</a>
+      </div>
+      <div class="producto">
+        <img src="https://www.clarin.com/2024/11/07/BCgqnJrRm_2000x1500__1.jpg" alt="Pistachos">
+        <h3>Pistachos</h3>
+        <p>Altos en proteínas, ideales como snack saludable.</p>
+        <a href="#pistachos">Ver más</a>
+      </div>
+      <div class="producto">
+        <img src="https://imag.bonviveur.com/un-cuenco-lleno-de-castanas-sobre-una-mesa.jpg" alt="Castañas">
+        <h3>Castañas</h3>
+        <p>Ricas en fibra, bajas en grasas. Se pueden cocer o asar.</p>
+        <a href="#castañas">Ver más</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIONES DE CADA FRUTO SECO -->
+  <section id="nueces">
+    <h2>Nueces</h2>
+    <img src="https://images.unsplash.com/photo-1524593000379-d4729b2c4f99?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bnVlY2VzfGVufDB8fDB8fHww" alt="Nueces" width="300">
+    <p>Las nueces son una fuente excelente de grasas saludables, Omega-3, antioxidantes y fibra. Son buenas para la salud cerebral y el corazón.</p>
+    <a href="#inicio">Volver al inicio</a>
+  </section>
+
+  <section id="almendras">
+    <h2>Almendras</h2>
+    <img src="https://www.shutterstock.com/image-photo/almonds-nuts-flat-lay-almond-600nw-2583112195.jpg" alt="Almendras" width="300">
+    <p>Las almendras son ricas en vitamina E, magnesio y proteínas. Ideales como snack saludable o para recetas dulces.</p>
+    <a href="#inicio">Volver al inicio</a>
+  </section>
+
+  <section id="avellanas">
+    <h2>Avellanas</h2>
+    <img src="https://png.pngtree.com/thumb_back/fh260/background/20210911/pngtree-hazelnuts-nuts-nuts-image_862007.jpg" alt="Avellanas" width="300">
+    <p>Las avellanas contienen grasas saludables, vitamina E y antioxidantes. Muy utilizadas en postres y cremas.</p>
+    <a href="#inicio">Volver al inicio</a>
+  </section>
+
+  <section id="pistachos">
+    <h2>Pistachos</h2>
+    <img src="https://www.clarin.com/2024/11/07/BCgqnJrRm_2000x1500__1.jpg" width="300">
+    <p>Los pistachos son ricos en proteínas, fibra, antioxidantes y grasas buenas. Son perfectos para picar entre comidas.</p>
+    <a href="#inicio">Volver al inicio</a>
+  </section>
+
+  <section id="castañas">
+    <h2>Castañas</h2>
+    <img src="https://imag.bonviveur.com/un-cuenco-lleno-de-castanas-sobre-una-mesa.jpg" alt="Castañas" width="300">
+    <p>Las castañas tienen un alto contenido de almidón, poca grasa y mucha fibra. Se consumen comúnmente asadas o cocidas.</p>
+    <a href="#inicio">Volver al inicio</a>
+  </section>
+
+  <!-- RECETAS -->
+  <section id="recetas">
+    <h2>Recetas Saludables</h2>
+    <div class="productos">
+      <div class="producto">
+        <h3>Granola Casera</h3>
+        <p>Avena, nueces, miel y semillas. Hornea por 20 minutos. Ideal con yogur.</p>
+      </div>
+      <div class="producto">
+        <h3>Galletas de Almendra</h3>
+        <p>Harina de almendra, huevo, canela. Hornear por 15 min.</p>
+      </div>
+      <div class="producto">
+        <h3>Snack de Pistachos</h3>
+        <p>Pistachos tostados con sal marina o especias.</p>
+      </div>
+    </div>
+    <a href="#inicio">Volver al inicio</a>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Dudas o pedidos? Escríbenos a:</p>
+    <p><a href="mailto:lahuertasaludable.com">lahuertasaludable.com</a></p>
+    <a href="#inicio">Volver al inicio</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Frutos Secos Naturales</p>
+  </footer>
+
+</body>
+</html>
